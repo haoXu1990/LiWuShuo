@@ -28,11 +28,11 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         window?.rootViewController = TabBarController()
         window?.makeKeyAndVisible()
         
-
-
-        SVProgressHUD.setBackgroundColor(UIColor.blackColor())
-        SVProgressHUD.setForegroundColor(UIColor.whiteColor())
-
+//
+//
+//        SVProgressHUD.setBackgroundColor(UIColor.blackColor())
+//        SVProgressHUD.setForegroundColor(UIColor.whiteColor())
+//
 
 
         return true

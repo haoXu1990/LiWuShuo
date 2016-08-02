@@ -8,6 +8,15 @@
 
 /* Begin PBXBuildFile section */
 		998CA5C09FE765FFF4AC88A9 /* Pods.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C2E05C717C37836C15936302 /* Pods.framework */; };
+		A34BF44F1D50383D00BBF96B /* MeHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A34BF44E1D50383D00BBF96B /* MeHeaderView.swift */; };
+		A34BF4511D503C8500BBF96B /* BaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A34BF4501D503C8500BBF96B /* BaseViewController.swift */; };
+		A34BF4541D50413700BBF96B /* LoginViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A34BF4531D50413700BBF96B /* LoginViewController.storyboard */; };
+		A34BF4561D50414A00BBF96B /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A34BF4551D50414A00BBF96B /* LoginViewController.swift */; };
+		A34BF4581D507FBB00BBF96B /* MeOptionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A34BF4571D507FBB00BBF96B /* MeOptionView.swift */; };
+		A34BF45A1D50807D00BBF96B /* ButtonTitleDown.swift in Sources */ = {isa = PBXBuildFile; fileRef = A34BF4591D50807D00BBF96B /* ButtonTitleDown.swift */; };
+		A34BF45C1D50862700BBF96B /* MeSectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A34BF45B1D50862700BBF96B /* MeSectionView.swift */; };
+		A34BF45E1D50864100BBF96B /* MeSectionView.xib in Resources */ = {isa = PBXBuildFile; fileRef = A34BF45D1D50864100BBF96B /* MeSectionView.xib */; };
+		A34BF4601D508F4100BBF96B /* MeFooterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A34BF45F1D508F4100BBF96B /* MeFooterView.swift */; };
 		A37011541D4F49F10012B44D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A37011531D4F49F10012B44D /* AppDelegate.swift */; };
 		A37011591D4F49F10012B44D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A37011571D4F49F10012B44D /* Main.storyboard */; };
 		A370115B1D4F49F10012B44D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A370115A1D4F49F10012B44D /* Assets.xcassets */; };
@@ -74,6 +83,15 @@
 /* Begin PBXFileReference section */
 		491418752E29E2D480D5BE4A /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
 		98559A6F5C782BD9656CFF24 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
+		A34BF44E1D50383D00BBF96B /* MeHeaderView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MeHeaderView.swift; sourceTree = "<group>"; };
+		A34BF4501D503C8500BBF96B /* BaseViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseViewController.swift; sourceTree = "<group>"; };
+		A34BF4531D50413700BBF96B /* LoginViewController.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = LoginViewController.storyboard; sourceTree = "<group>"; };
+		A34BF4551D50414A00BBF96B /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		A34BF4571D507FBB00BBF96B /* MeOptionView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MeOptionView.swift; sourceTree = "<group>"; };
+		A34BF4591D50807D00BBF96B /* ButtonTitleDown.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ButtonTitleDown.swift; sourceTree = "<group>"; };
+		A34BF45B1D50862700BBF96B /* MeSectionView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MeSectionView.swift; sourceTree = "<group>"; };
+		A34BF45D1D50864100BBF96B /* MeSectionView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MeSectionView.xib; sourceTree = "<group>"; };
+		A34BF45F1D508F4100BBF96B /* MeFooterView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MeFooterView.swift; sourceTree = "<group>"; };
 		A37011501D4F49F00012B44D /* LiWuShuo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LiWuShuo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A37011531D4F49F10012B44D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A37011581D4F49F10012B44D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -162,6 +180,15 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		A34BF4521D50410F00BBF96B /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				A34BF4531D50413700BBF96B /* LoginViewController.storyboard */,
+				A34BF4551D50414A00BBF96B /* LoginViewController.swift */,
+			);
+			name = Login;
+			sourceTree = "<group>";
+		};
 		A37011471D4F49F00012B44D = {
 			isa = PBXGroup;
 			children = (
@@ -244,6 +271,8 @@
 			children = (
 				A37011871D4F506D0012B44D /* TabBarController.swift */,
 				A37011891D4F509F0012B44D /* NavigationController.swift */,
+				A34BF4501D503C8500BBF96B /* BaseViewController.swift */,
+				A34BF4591D50807D00BBF96B /* ButtonTitleDown.swift */,
 			);
 			name = Base;
 			sourceTree = "<group>";
@@ -295,6 +324,11 @@
 		A370118F1D4F50EB0012B44D /* View */ = {
 			isa = PBXGroup;
 			children = (
+				A34BF44E1D50383D00BBF96B /* MeHeaderView.swift */,
+				A34BF4571D507FBB00BBF96B /* MeOptionView.swift */,
+				A34BF45F1D508F4100BBF96B /* MeFooterView.swift */,
+				A34BF45B1D50862700BBF96B /* MeSectionView.swift */,
+				A34BF45D1D50864100BBF96B /* MeSectionView.xib */,
 			);
 			name = View;
 			sourceTree = "<group>";
@@ -358,6 +392,7 @@
 		A37011A11D4F54C50012B44D /* Common */ = {
 			isa = PBXGroup;
 			children = (
+				A34BF4521D50410F00BBF96B /* Login */,
 				A37011A21D4F54D80012B44D /* Common.swift */,
 			);
 			name = Common;
@@ -533,6 +568,7 @@
 				A37011CB1D4F56F70012B44D /* goods_10.jpg in Resources */,
 				A37011DB1D4F56F70012B44D /* strategy_16.jpg in Resources */,
 				A37011E21D4F56F70012B44D /* strategy_7.jpg in Resources */,
+				A34BF45E1D50864100BBF96B /* MeSectionView.xib in Resources */,
 				A37011E31D4F56F70012B44D /* strategy_8.jpg in Resources */,
 				A37011D21D4F56F70012B44D /* goods_8.jpg in Resources */,
 				A37011D61D4F56F70012B44D /* strategy_11.jpg in Resources */,
@@ -553,6 +589,7 @@
 				A37011DD1D4F56F70012B44D /* strategy_2.jpg in Resources */,
 				A37011DA1D4F56F70012B44D /* strategy_15.jpg in Resources */,
 				A370115B1D4F49F10012B44D /* Assets.xcassets in Resources */,
+				A34BF4541D50413700BBF96B /* LoginViewController.storyboard in Resources */,
 				A37011DE1D4F56F70012B44D /* strategy_3.jpg in Resources */,
 				A37011CA1D4F56F70012B44D /* goods_1.jpg in Resources */,
 				A37011D41D4F56F70012B44D /* strategy_1.jpg in Resources */,
@@ -634,10 +671,17 @@
 				A37011A31D4F54D80012B44D /* Common.swift in Sources */,
 				A37011951D4F513F0012B44D /* HotViewController.swift in Sources */,
 				A37011541D4F49F10012B44D /* AppDelegate.swift in Sources */,
+				A34BF4581D507FBB00BBF96B /* MeOptionView.swift in Sources */,
+				A34BF4561D50414A00BBF96B /* LoginViewController.swift in Sources */,
 				A37011AB1D4F55010012B44D /* UISearchBar+Extension.swift in Sources */,
 				A37011A91D4F55010012B44D /* UIButton+Extension.swift in Sources */,
+				A34BF4511D503C8500BBF96B /* BaseViewController.swift in Sources */,
+				A34BF45A1D50807D00BBF96B /* ButtonTitleDown.swift in Sources */,
 				A370118A1D4F509F0012B44D /* NavigationController.swift in Sources */,
+				A34BF45C1D50862700BBF96B /* MeSectionView.swift in Sources */,
+				A34BF44F1D50383D00BBF96B /* MeHeaderView.swift in Sources */,
 				A37011911D4F51110012B44D /* MeViewController.swift in Sources */,
+				A34BF4601D508F4100BBF96B /* MeFooterView.swift in Sources */,
 				A37011881D4F506D0012B44D /* TabBarController.swift in Sources */,
 				A37011991D4F51600012B44D /* HomeViewController.swift in Sources */,
 				A37011A81D4F55010012B44D /* UIBarButtonItem+Extension.swift in Sources */,

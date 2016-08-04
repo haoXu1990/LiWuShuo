@@ -31,7 +31,7 @@
                         <action selector="singleBtnAction:" destination="iN0-l3-epB" eventType="touchUpInside" id="sJf-Cp-geX"/>
                     </connections>
                 </button>
-                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="eyb-ix-V9j">
+                <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="eyb-ix-V9j">
                     <rect key="frame" x="182" y="10" width="183" height="51"/>
                     <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     <state key="normal" title="攻略">
@@ -54,19 +54,11 @@
                 <constraint firstAttribute="trailing" secondItem="jyc-Nl-VHI" secondAttribute="trailing" id="0Nl-05-hU8"/>
                 <constraint firstItem="mV3-H1-zjg" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="2wv-gv-xot"/>
                 <constraint firstItem="hhd-e9-HVL" firstAttribute="width" secondItem="mV3-H1-zjg" secondAttribute="width" id="7g8-ln-HhS"/>
-                <constraint firstItem="eyb-ix-V9j" firstAttribute="width" secondItem="mV3-H1-zjg" secondAttribute="width" id="98x-WE-3PD"/>
-                <constraint firstItem="eyb-ix-V9j" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" constant="10" id="Glb-TL-Esa"/>
-                <constraint firstItem="eyb-ix-V9j" firstAttribute="height" secondItem="mV3-H1-zjg" secondAttribute="height" id="LPO-4A-521"/>
                 <constraint firstItem="mV3-H1-zjg" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" constant="10" id="MRV-2H-TBz"/>
-                <constraint firstAttribute="bottom" secondItem="eyb-ix-V9j" secondAttribute="bottom" constant="1" id="Q0R-UC-iVR"/>
                 <constraint firstItem="jyc-Nl-VHI" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" constant="10" id="QYc-Dl-71w"/>
-                <constraint firstItem="mV3-H1-zjg" firstAttribute="trailing" secondItem="hhd-e9-HVL" secondAttribute="trailing" id="Wl7-y2-1cN"/>
                 <constraint firstItem="jyc-Nl-VHI" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="Zjt-Jg-bis"/>
-                <constraint firstItem="mV3-H1-zjg" firstAttribute="leading" secondItem="hhd-e9-HVL" secondAttribute="leading" id="dq4-CT-DIV"/>
-                <constraint firstItem="eyb-ix-V9j" firstAttribute="width" secondItem="hhd-e9-HVL" secondAttribute="width" id="edV-in-6Eb"/>
                 <constraint firstAttribute="bottom" secondItem="mV3-H1-zjg" secondAttribute="bottom" constant="1" id="enk-dK-KpX"/>
                 <constraint firstItem="hhd-e9-HVL" firstAttribute="top" secondItem="jyc-Nl-VHI" secondAttribute="bottom" constant="49" id="fE8-mu-39U"/>
-                <constraint firstAttribute="trailing" secondItem="eyb-ix-V9j" secondAttribute="trailing" id="ly1-ln-LoP"/>
                 <constraint firstAttribute="bottom" secondItem="hhd-e9-HVL" secondAttribute="bottom" id="mzX-ac-Jg0"/>
                 <constraint firstItem="hhd-e9-HVL" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="uXm-cn-PgR"/>
             </constraints>
